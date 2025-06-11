@@ -16,6 +16,8 @@ Eine Schaltung wurde mit einem ESP32-C3, einem DHT11-Sensor, der die Temperatur 
 
 ## 3.  Theorie
 
+### 3.1 Benötigte Libraries
+
 Damit die Wetterstation überhaupt funktioniert, müssen die benötigten Libraries in der Arduino IDE installiert sein.
 Diese wären:
 
