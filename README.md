@@ -1,28 +1,17 @@
 # tgm-wetterstation-astojoski-bluka
-Unser Systemtechnikprojekt, wo wir mit unserem ESP32-C3 eine Wetterstation aufgebaut haben
-# Projekttitel
+## Unser Systemtechnikprojekt, wo wir mit unserem ESP32-C3 eine Wetterstation aufgebaut haben
 
-## Eventuell Untertitel
+Verfasser: **Aleksa Stojoski & Bartosz Luka**
 
-Verfasser: **Dominik Höbert, MSc**
-
-Datum: **05.08.2022**
+Datum: **11.6.2025**
 
 ## 1.  Einführung
 
-Hier wird in einem Absatz eine kurze (zwei bis drei Sätze) Einführung zum Thema geschrieben. Zum Beispiel kann hier stehen, warum dieses Thema gewählt wurde, warum es wichtig ist. Grundsätzlich ist eine Dokumentation im passiv zu verfassen. Es ist nicht wichtig wer etwas getan hat, sondern was getan wurde.
-
-Z.B.:
-
-Es gibt unterschiedliche Methoden um Daten zu speichern, zum Beispiel in Dateien auf einer Festplatte oder in einem Cloudstorage. Für Webanwendungen oder maschinelle Weiterverarbeitung eignet sich dies eher schlecht, dafür werden zu meist Datenbanken verwendet. In Informationssysteme der 3. Klasse wird sich vor allem mit den relationalen Datenbanken beschäftigt.
+Unsere Aufgabe war es eine Wetterstation mit einem ESP32-C3, einem DHT11-Sensor und einem Buzzer zu schaffen
 
 ## 2.  Projektbeschreibung
 
-Hier wird das Projekt und die Ergebnisse kurz (zwei bis drei Sätze) beschrieben.
-
-Z.B.:
-
-Es wurde eine Schaltung realisiert welche Flip Flop genannt wird. Diese Schaltung hat die Aufgabe einen Zustand zu speichern. Die Schaltung wurde in Tinkercad simuliert und die Zustände überprüft und dokumentiert.
+Eine Schaltung wurde aufgebaut, die die 
 
 ## 3.  Theorie
 
