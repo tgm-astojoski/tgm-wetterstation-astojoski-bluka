@@ -263,18 +263,8 @@ In wokwi gab es leider keinen DHT11 deswegen haben wir den DHT22 genommen. Es ga
 <img src="/bilder/website_wetterstation.jpg" />
 ## 7.  Quellen
 
-[1] Adam-P, “Markdown cheatsheet · Adam-P/markdown-here wiki,” *GitHub*. [online]. Available at: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet. [Accessed 05 February 2022]. 
-
-[2] GitHub Docs. 2022. *Basic writing and formatting syntax - GitHub Docs*. [online] Available at: <https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax> [Accessed 5 February 2022].
-
-[3] Markdowntutorial.com. 2022. *Markdown Tutorial*. [online] Available at: <https://www.markdowntutorial.com/> [Accessed 5 February 2022].
-
-[4] Markdownguide.org. 2022. *Markdown Guide*. [online] Available at: <https://www.markdownguide.org/> [Accessed 5 February 2022].
-
-[5] De.wikipedia.org. 2022. *Technische Dokumentation – Wikipedia*. [online] Available at: <https://de.wikipedia.org/wiki/Technische_Dokumentation> [Accessed 5 February 2022].
-
-[6] Ieeeauthorcenter.ieee.org. 2022. [online] Available at: <https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf> [Accessed 5 February 2022].
-
-[7] Pitt.libguides.com. 2022. *LibGuides: Citation Styles: APA, MLA, Chicago, Turabian, IEEE: IEEE Style*. [online] Available at: <https://pitt.libguides.com/citationhelp/ieee> [Accessed 5 February 2022].
-
-[8] Cite This For Me. 2022. *Save Time and Improve your Marks with CiteThisForMe, The No. 1 Citation Tool*. [online] Available at: <https://www.citethisforme.com/> [Accessed 5 February 2022].
+- https://randomnerdtutorials.com/esp32-async-web-server-espasyncwebserver-library/
+- https://hartmut-waller.info/arduinoblog/esp-wifi-und-webserver-starten/
+- https://esp32io.com/tutorials/esp32-mysql
+- https://randomnerdtutorials.com/esp32-dht11-dht22-temperature-humidity-sensor-arduino-ide/
+- https://randomnerdtutorials.com/esp32-wi-fi-manager-asyncwebserver/
