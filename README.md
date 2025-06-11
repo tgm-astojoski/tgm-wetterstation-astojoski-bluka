@@ -23,41 +23,7 @@ Zunächst haben wir den Webserver auf dem ESP32 eingerichtet. Anschließend wurd
 
 Daraufhin versuchten wir die erfassten Sensordaten in einer Datenbank zu speichern. Zuerst testeten wir die Verbindung zu einer MariaDB-Datenbank über phpMyAdmin mithilfe der MySQL Connector-Library von Dr. Charles Bell. Allerdings konnten die Messwerte nicht erfolgreich vom ESP32 an die Datenbank übertragen werden. Auch ein alternativer Ansatz mit einem PHP-Skript schlug fehl. Aus diesem Grund haben wir die Datenbankanbindung vorerst ausgelassen da wir die genaue Fehlerursache nicht feststellen konnten.
 
-Wir haben ein ESP32-Projekt umgesetzt, bei dem eine kleine Wetterstation mit Weboberfläche realisiert wurde.
-
-Webserver:
-Zuerst haben wir einen Webserver mit dem ESP32 eingerichtet. Damit können wir über das WLAN eine Webseite aufrufen, die Sensordaten anzeigt und verschiedene Funktionen steuert.
-
-DHT11 Sensor:
-Danach haben wir den DHT11-Sensor eingebunden. Dieser misst die Temperatur und Luftfeuchtigkeit. Die Werte werden über zwei separate Routen /temperature und /humidity vom Webserver ausgegeben.
-
-Buzzer:
-Anschließend haben wir einen Buzzer hinzugefügt. Wenn die Temperatur über 25 °C steigt, wird ein Warnton ausgegeben, um auf mögliche Überhitzung aufmerksam zu machen.
-
-Status-LED (NeoPixel):
-Wir haben eine NeoPixel-LED als Statusanzeige eingebaut:
-
-Blau: Normale Temperatur
-
-Orange: Überhitzung
-
-Rot blinkend: Keine WLAN-Verbindung
-
-Aus: LED ist deaktiviert
-
-Über die Weboberfläche kann die LED ein- und ausgeschaltet werden (/led?state=on/off).
-
-Zeit über NTP:
-Die aktuelle Zeit wird über NTP-Server abgerufen und kann über /time angezeigt werden.
-
-Design der Website:
-Zum Schluss haben wir die Webseite optisch angepasst, um die Daten übersichtlich darzustellen.
-
-
-
 ### Code
-
-Sehr wichtig ist es den verwendeten Code zu dokumentieren.
 
 ```c++
 #include "DHT.h"
@@ -233,7 +199,33 @@ void loop() {
 
 ```
 
-Dieser Code muss natürlich auch beschrieben und kommentiert werden.
+Webserver:
+Zuerst haben wir einen Webserver mit dem ESP32 eingerichtet. Damit können wir über das WLAN eine Webseite aufrufen, die Sensordaten anzeigt und verschiedene Funktionen steuert.
+
+DHT11 Sensor:
+Danach haben wir den DHT11-Sensor eingebunden. Dieser misst die Temperatur und Luftfeuchtigkeit. Die Werte werden über zwei separate Routen /temperature und /humidity vom Webserver ausgegeben.
+
+Buzzer:
+Anschließend haben wir einen Buzzer hinzugefügt. Wenn die Temperatur über 25 °C steigt, wird ein Warnton ausgegeben, um auf mögliche Überhitzung aufmerksam zu machen.
+
+Status-LED (NeoPixel):
+Wir haben eine NeoPixel-LED als Statusanzeige eingebaut:
+
+Blau: Normale Temperatur
+
+Orange: Überhitzung
+
+Rot blinkend: Keine WLAN-Verbindung
+
+Aus: LED ist deaktiviert
+
+Über die Weboberfläche kann die LED ein- und ausgeschaltet werden (/led?state=on/off).
+
+Zeit über NTP:
+Die aktuelle Zeit wird über NTP-Server abgerufen und kann über /time angezeigt werden.
+
+Design der Website:
+Zum Schluss haben wir die Webseite optisch angepasst, um die Daten übersichtlich darzustellen.
 
 ### Bilder und Schaltungen
 
