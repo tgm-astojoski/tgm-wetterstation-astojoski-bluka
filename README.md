@@ -19,7 +19,13 @@ Die notwendige Theorie, um das Projekt durchführen zu können, wird hier beschr
 
 ## 4.   Arbeitsschritt
 
-Die einzelnen Schritte sollen hier genauer beschrieben werden. Mithilfe dieser Dokumentation sollte jeder das Projekt mit demselben Ergebnis nachmachen können. Weitere Arbeitsschritte können hinzugefügt werden.
+Zunächst haben wir den Webserver auf dem ESP32 eingerichtet. Anschließend wurde der DHT11-Sensor implementiert dessen Messwerte erfolgreich auf der Webseite des Webservers angezeigt wurden. Danach ergänzten wir das Projekt um einen Buzzer. Im nächsten Schritt haben wir eine Status-LED integriert die sich über den Webserver ein und ausschalten lässt.
+
+Daraufhin versuchten wir die erfassten Sensordaten in einer Datenbank zu speichern. Zuerst testeten wir die Verbindung zu einer MariaDB-Datenbank über phpMyAdmin mithilfe der MySQL Connector-Library von Dr. Charles Bell. Allerdings konnten die Messwerte nicht erfolgreich vom ESP32 an die Datenbank übertragen werden. Auch ein alternativer Ansatz mit einem PHP-Skript schlug fehl. Aus diesem Grund haben wir die Datenbankanbindung vorerst ausgelassen da wir die genaue Fehlerursache nicht feststellen konnten.
+
+Zum Abschluss haben wir die Gestaltung der Webseite verbessert und ihr ein ansprechenderes Design verliehen.
+
+
 
 ### Code
 
