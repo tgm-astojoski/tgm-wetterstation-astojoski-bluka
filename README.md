@@ -263,7 +263,8 @@ Hier die Schaltung in real life aufgebaut, die LED leuchtet orange weil die Temp
 In wokwi gab es leider keinen DHT11 deswegen haben wir den DHT22 genommen. Es gab einen Buzzer der allerdings nur 2 Pins und unser 3 Pins hatte.
 <img src="/bilder/website_wetterstation.jpg" />
 Hier noch ein Screenshot wie unsere Website ausschaut
-## 7.  Quellen
+
+### 7.  Quellen
 
 - https://randomnerdtutorials.com/esp32-async-web-server-espasyncwebserver-library/
 - https://hartmut-waller.info/arduinoblog/esp-wifi-und-webserver-starten/
