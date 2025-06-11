@@ -265,7 +265,8 @@ Es gibt viele Standards richtig zu zitieren, in der Technik wird jedoch der [IEE
 
 ## 6.  Bilder und Schaltung 
 <img src="/bilder/wetterstation.jpg" />
-
+<img src="/bilder/wokwi_schaltung.jpg" />
+In wokwi gab es leider keinen DHT11 deswegen haben wir den DHT22 genommen. Es gab einen Buzzer der allerdings nur 2 Pins und unser 3 Pins hatte.
 
 ## 7.  Quellen
 
