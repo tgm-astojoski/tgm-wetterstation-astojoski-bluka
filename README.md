@@ -11,7 +11,8 @@ Unsere Aufgabe war es eine Wetterstation mit einem ESP32-C3, einem DHT11-Sensor 
 
 ## 2.  Projektbeschreibung
 
-Eine Schaltung wurde mit einem ESP32-C3, einem DHT11-Sensor und einem Buzzer aufgebaut, die die Temperatur und Luftfeuchtigkeit misst und via auf einer auf dem ESP gehosteten Website a
+Eine Schaltung wurde mit einem ESP32-C3, einem DHT11-Sensor, der die Temperatur und Luftfeuchtigkeit misst, und einem Buzzer aufgebaut, die die Temperatur und Luftfeuchtigkeit misst und via auf einer auf dem ESP gehosteten Website anzeigt. Die LED_BUILTIN des ESP32 zeigt an ob der ESP WLAN hat (blau), kein WLAN hat. (rot) oder die Temperatur zu hoch ist (orange). Ursprünglich war auch geplant eine Datenbank zu erstellen, die die Messwerte hätte speichern sollen.
+
 
 ## 3.  Theorie
 
@@ -254,12 +255,6 @@ Bildausschnitte sollten mit bedacht gewählt werden. Schaltungen sollten ansprec
 
 Auch die Aussage der Tabelle muss ausformuliert werden.
 
-### Text
-
-*"Eine **Technische Dokumentation** (auch Technikdokumentation oder Produktdokumentation) umfasst alle Informationsprodukte, die ein technisches Erzeugnis beschreiben und zu seiner Nutzung, Wartung oder Reparatur anleiten. Sie bereitet die Informationen systematisch auf und strukturiert sie so, dass der jeweilige Zweck vollständig erfüllt wird."*[5]
-
-Text aus anderen Quellen kann gerne verwendet werden, muss aber immer richtig zitiert werden, da das sonst als Plagiat gewertet wird. Die Aussage des zitierten Textausschnitt sollte auch immer zusätzlich besprochen werden.
-
 ## 5.  Zusammenfassung
 
 Das Projekt soll hier in wenigen Sätzen zusammengefasst werden. Auch Schwierigkeiten und Fehler bei der Durchführung, sind wichtig zu dokumentieren, wenn es gröbere Probleme gab schon vorher (zum Beispiel in den Arbeitsschritten), kleinere in der Zusammenfassung.
@@ -268,7 +263,9 @@ Im nächsten Abschnitt sind noch die Quellen anzugeben. Alles was nicht vom Auto
 
 Es gibt viele Standards richtig zu zitieren, in der Technik wird jedoch der [IEEE Standard](https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf)[6] bevorzugt. Wie hier sichtbar ist, wird dazu im Text eckige Klammern gesetzt welche zu den Quellen am Ende führen. Der IEEE Standard ist sehr ausführlich, hier gibt es ein paar [Beispiele](https://pitt.libguides.com/citationhelp/ieee)[7]. Wir können uns das Leben aber mit diesem [Citation Generator](https://www.citethisforme.com/)[8] leichter machen.
 
-## 6.  Quellen
+## 6.  Bilder und Schaltung 
+
+## 7.  Quellen
 
 [1] Adam-P, “Markdown cheatsheet · Adam-P/markdown-here wiki,” *GitHub*. [online]. Available at: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet. [Accessed 05 February 2022]. 
 
