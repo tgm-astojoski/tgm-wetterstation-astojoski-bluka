@@ -264,6 +264,8 @@ Im nächsten Abschnitt sind noch die Quellen anzugeben. Alles was nicht vom Auto
 Es gibt viele Standards richtig zu zitieren, in der Technik wird jedoch der [IEEE Standard](https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf)[6] bevorzugt. Wie hier sichtbar ist, wird dazu im Text eckige Klammern gesetzt welche zu den Quellen am Ende führen. Der IEEE Standard ist sehr ausführlich, hier gibt es ein paar [Beispiele](https://pitt.libguides.com/citationhelp/ieee)[7]. Wir können uns das Leben aber mit diesem [Citation Generator](https://www.citethisforme.com/)[8] leichter machen.
 
 ## 6.  Bilder und Schaltung 
+<img src="/bilder/wetterstation.jpg" />
+
 
 ## 7.  Quellen
 
