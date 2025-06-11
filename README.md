@@ -11,7 +11,7 @@ Unsere Aufgabe war es eine Wetterstation mit einem ESP32-C3, einem DHT11-Sensor 
 
 ## 2.  Projektbeschreibung
 
-Eine Schaltung wurde aufgebaut, die die 
+Eine Schaltung wurde mit einem ESP32-C3, einem DHT11-Sensor und einem Buzzer aufgebaut, die die Temperatur und Luftfeuchtigkeit misst und via auf einer auf dem ESP gehosteten Website a
 
 ## 3.  Theorie
 
