@@ -16,7 +16,17 @@ Eine Schaltung wurde mit einem ESP32-C3, einem DHT11-Sensor, der die Temperatur 
 
 ## 3.  Theorie
 
-Die notwendige Theorie, um das Projekt durchführen zu können, wird hier beschrieben. Diese kann auch ausführlicher sein. Hier sollen  auch die Fragestellungen ausgearbeitet werden.
+Damit die Wetterstation überhaupt funktioniert, müssen die benötigten Libraries in der Arduino IDE installiert sein.
+Diese wären:
+
+- NTPClient
+- Adafruit DMA neopixel-library
+- Adafruit NeoPixel
+- Adafruit Unified Sensor
+- Async TCP
+- DHT sensor library
+- ESP Async WebServer
+- ESPAsyncTCP
 
 ## 4.   Arbeitsschritt
 
