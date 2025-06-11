@@ -243,15 +243,14 @@ Bildausschnitte sollten mit bedacht gewählt werden. Schaltungen sollten ansprec
 
 ### Tabellen
 
-| Variable                             | n     | M     | SD   | 1      | 2      | 3     | 4     | 5    | 6     | 7    |
-| ------------------------------------ | ----- | ----- | ---- | ------ | ------ | ----- | ----- | ---- | ----- | ---- |
-| 1. Internal–      external status a  | 3,697 | 0.43  | 0.49 | —      |        |       |       |      |       |      |
-| 2. Manager job      performance      | 2,134 | 3.14  | 0.62 | −.08** | —      |       |       |      |       |      |
-| 3. Starting salary b                 | 3,697 | 1.01  | 0.27 | .45**  | −.01   | —     |       |      |       |      |
-| 4. Subsequent promotion              | 3,697 | 0.33  | 0.47 | .08**  | .07**  | .04*  | —     |      |       |      |
-| 5. Organizational tenure             | 3,697 | 6.45  | 6.62 | −.29** | .09**  | .01   | .09** | —    |       |      |
-| 6. Unit service      performance c   | 3,505 | 85.00 | 6.98 | −.25** | −.39** | .24** | .08** | .01  | —     |      |
-| 7. Unit financial      performance c | 694   | 42.61 | 5.86 | .00    | −.03   | .12*  | −.07  | −.02 | .16** | —    |
+| Bauteil                              | Menge | 
+| ------------------------------------ | ----- | 
+| 1. ESP32-C3                          |   1   | 
+| 2. DHT11 Sensor	                     |   1   | 
+| 3. Buzzer                            |   1   | 
+| 4. RGB LED (intern)                  |   1   | 
+| 5. Breadboard                        |   1   | 
+| 6. Jumperkabel                       |   6   | 
 
 Auch die Aussage der Tabelle muss ausformuliert werden.
 
