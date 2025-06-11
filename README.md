@@ -254,11 +254,7 @@ Auch die Aussage der Tabelle muss ausformuliert werden.
 
 ## 5.  Zusammenfassung
 
-Das Projekt soll hier in wenigen Sätzen zusammengefasst werden. Auch Schwierigkeiten und Fehler bei der Durchführung, sind wichtig zu dokumentieren, wenn es gröbere Probleme gab schon vorher (zum Beispiel in den Arbeitsschritten), kleinere in der Zusammenfassung.
-
-Im nächsten Abschnitt sind noch die Quellen anzugeben. Alles was nicht vom Autor selbst erzeugt wurde ist in einer Dokumentation zu zitieren und in den Quellen anzugeben. Es ist wichtig immer festzuhalten woher eine Information stammt um diese gegebenenfalls nachprüfen zu können. Die meisten Informationen stammen in dieser Zeit aus dem Internet, hier reicht es aber nicht nur die URL anzugeben. Titel, Autor und vor allem das Datum wann die URL das letzte mal überprüft wurde ist wichtig anzugeben (da sich Informationen im Internet auch ändern können).
-
-Es gibt viele Standards richtig zu zitieren, in der Technik wird jedoch der [IEEE Standard](https://ieeeauthorcenter.ieee.org/wp-content/uploads/IEEE-Reference-Guide.pdf)[6] bevorzugt. Wie hier sichtbar ist, wird dazu im Text eckige Klammern gesetzt welche zu den Quellen am Ende führen. Der IEEE Standard ist sehr ausführlich, hier gibt es ein paar [Beispiele](https://pitt.libguides.com/citationhelp/ieee)[7]. Wir können uns das Leben aber mit diesem [Citation Generator](https://www.citethisforme.com/)[8] leichter machen.
+Das Projekt war eine interessante Aufgabe, weil wir zum ersten Mal so ein großes Projekt mit unserem Microcontroller ESP32-C3 umgesetzt haben. Wir hatten Schwierigkeiten mit der Datenbank, weil die Messwerte nicht vom ESP an sie gesendet werden konnte, weil der ESP sich nicht mit ihr verbinden konnte, bzw. stürzte er im Versuch ab.
 
 ## 6.  Bilder und Schaltung 
 <img src="/bilder/wetterstation.jpg" />
