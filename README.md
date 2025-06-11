@@ -28,7 +28,7 @@ Diese wären:
 - ESP Async WebServer
 - ESPAsyncTCP
 
-## 4.   Arbeitsschritt
+## 4.   Arbeitsschritte
 
 Zunächst haben wir den Webserver auf dem ESP32 eingerichtet. Anschließend wurde der DHT11-Sensor implementiert dessen Messwerte erfolgreich auf der Webseite des Webservers angezeigt wurden. Danach ergänzten wir das Projekt um einen Buzzer. Im nächsten Schritt haben wir eine Status-LED integriert die sich über den Webserver ein und ausschalten lässt.
 
@@ -258,9 +258,11 @@ Das Projekt war eine interessante Aufgabe, weil wir zum ersten Mal so ein große
 
 ## 6.  Bilder und Schaltung 
 <img src="/bilder/wetterstation.jpg" />
+Hier die Schaltung in real life aufgebaut, die LED leuchtet orange weil die Temperatur zu hoch ist.
 <img src="/bilder/wokwi_schaltung.jpg" />
 In wokwi gab es leider keinen DHT11 deswegen haben wir den DHT22 genommen. Es gab einen Buzzer der allerdings nur 2 Pins und unser 3 Pins hatte.
 <img src="/bilder/website_wetterstation.jpg" />
+Hier noch ein Screenshot wie unsere Website ausschaut
 ## 7.  Quellen
 
 - https://randomnerdtutorials.com/esp32-async-web-server-espasyncwebserver-library/
